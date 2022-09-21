@@ -1,0 +1,88 @@
+/*--------------------------RESET---------------------*/
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+/*---------------------------- STYLES------------------------- */
+#container {
+    width: 80%;
+    min-height: 100vh;
+    background-color: #ffe96fda;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+div {
+    padding: 10px;
+    ;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn, #btnFinal {
+    background: #00e03c;
+    background-image: -webkit-linear-gradient(top, #00e03c, #028515);
+    background-image: -moz-linear-gradient(top, #00e03c, #028515);
+    background-image: -ms-linear-gradient(top, #00e03c, #028515);
+    background-image: -o-linear-gradient(top, #00e03c, #028515);
+    background-image: linear-gradient(to bottom, #00e03c, #028515);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    padding: 2px 8px 2px 8px;
+    text-decoration: none;
+}
+
+.btn:hover,
+#btnFinal:hover {
+    background: #3cfc8f;
+    background-image: -webkit-linear-gradient(top, #3cfc8f, #00ba66);
+    background-image: -moz-linear-gradient(top, #3cfc8f, #00ba66);
+    background-image: -ms-linear-gradient(top, #3cfc8f, #00ba66);
+    background-image: -o-linear-gradient(top, #3cfc8f, #00ba66);
+    background-image: linear-gradient(to bottom, #3cfc8f, #00ba66);
+    text-decoration: none;
+    cursor: pointer;
+}
+.final {
+    display: flex;
+    justify-content: center;
+}
+
+.inline {
+    display: inline;
+}
